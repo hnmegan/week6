@@ -1,0 +1,154 @@
+body
+{
+	
+	font-family: Cochin;
+	text-align: center;
+	align-items: center;
+	width: 1440px;
+
+}
+main
+{
+
+	text-align: center;
+
+}
+a,li
+{
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+p
+{
+	text-align: justify;
+	font-style: italic;
+	font-size: 30px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+/*HEADER*/
+.mainHeader 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(../images/background.svg);
+	height: 250px;
+}
+#logo
+{
+	width: 75%;
+}
+nav
+{
+	display: flex;
+	align-items: flex-end;
+}
+.mainHeader nav ul li
+{
+	display: inline;
+	padding: 60px;
+
+}
+/*BANNER*/
+#Banner
+{
+	text-align: center;
+	position: relative;
+
+}
+
+.bannerImg
+{
+	position: relative;
+}
+
+
+
+#Break
+{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+
+}
+
+#Break h3
+{
+	font-size: 30px;
+	text-align: center;
+	color: #c09174;
+	margin-top: 80px;
+
+}
+
+button
+{
+	font-family: Cochin;
+	font-size: 14px;
+	background: black;
+	color: white;
+
+}
+
+
+/*--GALLERY--*/
+.Gallery
+{
+   	height: 60%;
+   	margin-top: 80px;
+   	margin-bottom: 80px;
+}
+
+
+
+.Gallery img
+{
+	margin-top: 40px;
+}
+
+#icons
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	align-self: center;
+}
+
+.Text
+{
+	padding: 40px;
+}
+
+
+/*Footer*/
+
+.social
+{
+	margin-top: 100px;
+}
+
+.social ul li
+{
+	display: inline;
+	padding: 60px;
+}
+.social img
+{
+	height: 30px;
+}
+
+
+.selected { 
+  color:  #c09174 !important;  
+  text-transform: capitalize;
+  font-style: italic;
+  }
